@@ -127,7 +127,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="FileProcessor.cpp" />
+    <ClCompile Include="GROUP.cpp" />
     <ClCompile Include="lab2_class.cpp" />
+    <ClCompile Include="STUDENT.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FileProcessor.h" />
+    <ClInclude Include="GROUP.h" />
+    <ClInclude Include="STUDENT.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
